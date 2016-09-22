@@ -10,24 +10,7 @@
 		3D1640500F3BCC6900CA65AD /* KeyCastrStatusItemActive.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D16404E0F3BCC6900CA65AD /* KeyCastrStatusItemActive.png */; };
 		3D1640510F3BCC6900CA65AD /* KeyCastrStatusItemInactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D16404F0F3BCC6900CA65AD /* KeyCastrStatusItemInactive.png */; };
 		3D1640600F3BCEC900CA65AD /* KeyCastrInactive.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3D16405F0F3BCEC900CA65AD /* KeyCastrInactive.icns */; };
-		3D1646690F43D76D00CA65AD /* KCDefaultVisualizer.kcplugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D16465A0F43D6E700CA65AD /* KCDefaultVisualizer.kcplugin */; };
-		3D1646830F43D8BD00CA65AD /* KCDefaultVisualizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F54E20F31E52E001C7272 /* KCDefaultVisualizer.m */; };
-		3D1646840F43D8BE00CA65AD /* KCDefaultVisualizer.nib in Resources */ = {isa = PBXBuildFile; fileRef = 3D3F54E70F31E5C2001C7272 /* KCDefaultVisualizer.nib */; };
-		3D1646C20F43DC4700CA65AD /* KCVisualizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F54DE0F31448A001C7272 /* KCVisualizer.m */; };
-		3D1646C30F43DC4700CA65AD /* KCVisualizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D3F54DD0F31448A001C7272 /* KCVisualizer.h */; };
-		3D1646C40F43DC4C00CA65AD /* KCKeystroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC314700F33EEF400B67D65 /* KCKeystroke.m */; };
-		3D1646C50F43DC4C00CA65AD /* KCKeystroke.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DC3146F0F33EEF400B67D65 /* KCKeystroke.h */; };
-		3D1646C60F43DC5000CA65AD /* KCKeystrokeTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D1645DD0F43CD0600CA65AD /* KCKeystrokeTransformer.h */; };
-		3D1646C70F43DC5100CA65AD /* KCKeystrokeTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1645DE0F43CD0600CA65AD /* KCKeystrokeTransformer.m */; };
-		3D1646CB0F43DC6D00CA65AD /* KCVisualizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1646B60F43DBD700CA65AD /* KCVisualizer.framework */; };
-		3D1646D10F43DCA700CA65AD /* KCVisualizer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D1646B60F43DBD700CA65AD /* KCVisualizer.framework */; };
 		3D1646EB0F43DD3000CA65AD /* KCAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F52550F300389001C7272 /* KCAppController.m */; };
-		3D1646ED0F43DD5E00CA65AD /* NSBezierPath+RoundedRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F56C30F3374E9001C7272 /* NSBezierPath+RoundedRect.m */; };
-		3D1646F40F43DD8300CA65AD /* KCVisualizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1646B60F43DBD700CA65AD /* KCVisualizer.framework */; };
-		3D1648B70F451D8000CA65AD /* KCVisualizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1646B60F43DBD700CA65AD /* KCVisualizer.framework */; };
-		3D1648B90F451DAA00CA65AD /* Svelte.nib in Resources */ = {isa = PBXBuildFile; fileRef = 3D1648B80F451DAA00CA65AD /* Svelte.nib */; };
-		3D1648BC0F451DC300CA65AD /* SvelteVisualizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1648BB0F451DC300CA65AD /* SvelteVisualizer.m */; };
-		3D1648C20F451EDB00CA65AD /* Svelte.kcplugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D1648AC0F451D4500CA65AD /* Svelte.kcplugin */; };
 		3D3F52A70F30BF1E001C7272 /* KeyCastr.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3D3F52A60F30BF1E001C7272 /* KeyCastr.icns */; };
 		3D3F52BA0F30C68B001C7272 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3F52B90F30C68B001C7272 /* Quartz.framework */; };
 		3D3F52EB0F30CB13001C7272 /* KCPrefsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F52EA0F30CB13001C7272 /* KCPrefsWindowController.m */; };
@@ -39,7 +22,6 @@
 		3D3F548E0F30F3C7001C7272 /* UpdateIcon.tif in Resources */ = {isa = PBXBuildFile; fileRef = 3D3F548D0F30F3C7001C7272 /* UpdateIcon.tif */; };
 		3D3F56410F32D266001C7272 /* ShortcutRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3F56400F32D266001C7272 /* ShortcutRecorder.framework */; };
 		3D3F564E0F32D2EA001C7272 /* ShortcutRecorder.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D3F56400F32D266001C7272 /* ShortcutRecorder.framework */; };
-		3D3F56CB0F337533001C7272 /* NSUserDefaults+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F56CA0F337533001C7272 /* NSUserDefaults+Utility.m */; };
 		3D66FC520F539C290034ECC1 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3DF8835C0F5254F9005FD1C6 /* Sparkle.framework */; };
 		3DF883890F5256FF005FD1C6 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF8835C0F5254F9005FD1C6 /* Sparkle.framework */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
@@ -50,43 +32,54 @@
 		AE39388C1BB73B36005458A6 /* KeyCastrStatusItem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE3938881BB73B36005458A6 /* KeyCastrStatusItem@2x.png */; };
 		AE39388D1BB73B36005458A6 /* KeyCastrStatusItemActive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE3938891BB73B36005458A6 /* KeyCastrStatusItemActive@2x.png */; };
 		AE39388E1BB73B36005458A6 /* KeyCastrStatusItemInactive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE39388A1BB73B36005458A6 /* KeyCastrStatusItemInactive@2x.png */; };
+		F10008381D942984005A6D38 /* KCVisualizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C55B8C1D94259400977494 /* KCVisualizer.framework */; };
+		F10008391D942989005A6D38 /* KCVisualizer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F1C55B8C1D94259400977494 /* KCVisualizer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F1238AB91D9418E500294D32 /* Svelte.kcplugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = F1238AB81D9418C800294D32 /* Svelte.kcplugin */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F1C55B781D94220700977494 /* KCDefaultVisualizer.kcplugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = F1C55B751D9421E700977494 /* KCDefaultVisualizer.kcplugin */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3D1646660F43D74700CA65AD /* PBXContainerItemProxy */ = {
+		F1238AB71D9418C800294D32 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			containerPortal = F1238AB31D9418C800294D32 /* Svelte.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F1C813221D94131F00542343;
+			remoteInfo = Svelte;
+		};
+		F1238ABA1D9418F700294D32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1238AB31D9418C800294D32 /* Svelte.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 3D1646590F43D6E700CA65AD;
+			remoteGlobalIDString = F1C813211D94131F00542343;
+			remoteInfo = Svelte;
+		};
+		F1C55B741D9421E700977494 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1C55B701D9421E700977494 /* KCDefaultVisualizer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F1C813221D94131F00542343;
 			remoteInfo = KCDefaultVisualizer;
 		};
-		3D1646D40F43DCB200CA65AD /* PBXContainerItemProxy */ = {
+		F1C55B761D9421FE00977494 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			containerPortal = F1C55B701D9421E700977494 /* KCDefaultVisualizer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F1C813211D94131F00542343;
+			remoteInfo = KCDefaultVisualizer;
+		};
+		F1C55B8B1D94259400977494 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1C55B841D94259300977494 /* KCVisualizer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D1646B60F43DBD700CA65AD;
+			remoteInfo = KCVisualizer;
+		};
+		F1C55B8F1D94272000977494 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1C55B841D94259300977494 /* KCVisualizer.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 3D1646B50F43DBD700CA65AD;
 			remoteInfo = KCVisualizer;
-		};
-		3D1646D60F43DCB700CA65AD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3D1646B50F43DBD700CA65AD;
-			remoteInfo = KCVisualizer;
-		};
-		3D1648B40F451D6F00CA65AD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3D1646B50F43DBD700CA65AD;
-			remoteInfo = KCVisualizer;
-		};
-		3D1648C50F451EE400CA65AD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3D1648AB0F451D4500CA65AD;
-			remoteInfo = Svelte;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -97,8 +90,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				3D1648C20F451EDB00CA65AD /* Svelte.kcplugin in CopyFiles */,
-				3D1646690F43D76D00CA65AD /* KCDefaultVisualizer.kcplugin in CopyFiles */,
+				F1C55B781D94220700977494 /* KCDefaultVisualizer.kcplugin in CopyFiles */,
+				F1238AB91D9418E500294D32 /* Svelte.kcplugin in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,8 +101,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				F10008391D942989005A6D38 /* KCVisualizer.framework in CopyFiles */,
 				3D66FC520F539C290034ECC1 /* Sparkle.framework in CopyFiles */,
-				3D1646D10F43DCA700CA65AD /* KCVisualizer.framework in CopyFiles */,
 				3D3F564E0F32D2EA001C7272 /* ShortcutRecorder.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,17 +121,6 @@
 		3D16404E0F3BCC6900CA65AD /* KeyCastrStatusItemActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KeyCastrStatusItemActive.png; sourceTree = "<group>"; };
 		3D16404F0F3BCC6900CA65AD /* KeyCastrStatusItemInactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KeyCastrStatusItemInactive.png; sourceTree = "<group>"; };
 		3D16405F0F3BCEC900CA65AD /* KeyCastrInactive.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = KeyCastrInactive.icns; sourceTree = "<group>"; };
-		3D1645DD0F43CD0600CA65AD /* KCKeystrokeTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCKeystrokeTransformer.h; sourceTree = "<group>"; };
-		3D1645DE0F43CD0600CA65AD /* KCKeystrokeTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCKeystrokeTransformer.m; sourceTree = "<group>"; };
-		3D16465A0F43D6E700CA65AD /* KCDefaultVisualizer.kcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCDefaultVisualizer.kcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D16465B0F43D6E700CA65AD /* KCDefaultVisualizer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KCDefaultVisualizer-Info.plist"; sourceTree = "<group>"; };
-		3D1646B60F43DBD700CA65AD /* KCVisualizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KCVisualizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D1646B70F43DBD700CA65AD /* KCVisualizer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KCVisualizer-Info.plist"; sourceTree = "<group>"; };
-		3D1648AC0F451D4500CA65AD /* Svelte.kcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Svelte.kcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D1648AD0F451D4500CA65AD /* Svelte-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Svelte-Info.plist"; sourceTree = "<group>"; };
-		3D1648B80F451DAA00CA65AD /* Svelte.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = Svelte.nib; sourceTree = "<group>"; };
-		3D1648BA0F451DC300CA65AD /* SvelteVisualizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SvelteVisualizer.h; sourceTree = "<group>"; };
-		3D1648BB0F451DC300CA65AD /* SvelteVisualizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SvelteVisualizer.m; sourceTree = "<group>"; };
 		3D3F52540F300389001C7272 /* KCAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCAppController.h; sourceTree = "<group>"; };
 		3D3F52550F300389001C7272 /* KCAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCAppController.m; sourceTree = "<group>"; };
 		3D3F52A60F30BF1E001C7272 /* KeyCastr.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = KeyCastr.icns; sourceTree = "<group>"; };
@@ -153,18 +135,7 @@
 		3D3F54870F30F37E001C7272 /* GeneralIcon.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = GeneralIcon.tif; sourceTree = "<group>"; };
 		3D3F54880F30F37E001C7272 /* DisplayIcon.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = DisplayIcon.tif; sourceTree = "<group>"; };
 		3D3F548D0F30F3C7001C7272 /* UpdateIcon.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = UpdateIcon.tif; sourceTree = "<group>"; };
-		3D3F54DD0F31448A001C7272 /* KCVisualizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCVisualizer.h; sourceTree = "<group>"; };
-		3D3F54DE0F31448A001C7272 /* KCVisualizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCVisualizer.m; sourceTree = "<group>"; };
-		3D3F54E10F31E52E001C7272 /* KCDefaultVisualizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCDefaultVisualizer.h; sourceTree = "<group>"; };
-		3D3F54E20F31E52E001C7272 /* KCDefaultVisualizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCDefaultVisualizer.m; sourceTree = "<group>"; };
-		3D3F54E70F31E5C2001C7272 /* KCDefaultVisualizer.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = KCDefaultVisualizer.nib; sourceTree = "<group>"; };
 		3D3F56400F32D266001C7272 /* ShortcutRecorder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShortcutRecorder.framework; sourceTree = "<group>"; };
-		3D3F56C30F3374E9001C7272 /* NSBezierPath+RoundedRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+RoundedRect.m"; sourceTree = "<group>"; };
-		3D3F56C40F3374E9001C7272 /* NSBezierPath+RoundedRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+RoundedRect.h"; sourceTree = "<group>"; };
-		3D3F56C90F337533001C7272 /* NSUserDefaults+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+Utility.h"; sourceTree = "<group>"; };
-		3D3F56CA0F337533001C7272 /* NSUserDefaults+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Utility.m"; sourceTree = "<group>"; };
-		3DC3146F0F33EEF400B67D65 /* KCKeystroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCKeystroke.h; sourceTree = "<group>"; };
-		3DC314700F33EEF400B67D65 /* KCKeystroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCKeystroke.m; sourceTree = "<group>"; };
 		3DF8835C0F5254F9005FD1C6 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* KeyCastr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyCastr.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -172,41 +143,21 @@
 		AE3938881BB73B36005458A6 /* KeyCastrStatusItem@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KeyCastrStatusItem@2x.png"; sourceTree = "<group>"; };
 		AE3938891BB73B36005458A6 /* KeyCastrStatusItemActive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KeyCastrStatusItemActive@2x.png"; sourceTree = "<group>"; };
 		AE39388A1BB73B36005458A6 /* KeyCastrStatusItemInactive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KeyCastrStatusItemInactive@2x.png"; sourceTree = "<group>"; };
+		F1238AB31D9418C800294D32 /* Svelte.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Svelte.xcodeproj; path = ../Visualizers/Svelte/Svelte.xcodeproj; sourceTree = "<group>"; };
+		F1C55B701D9421E700977494 /* KCDefaultVisualizer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KCDefaultVisualizer.xcodeproj; path = ../Visualizers/KCDefaultVisualizer/KCDefaultVisualizer.xcodeproj; sourceTree = "<group>"; };
+		F1C55B841D94259300977494 /* KCVisualizer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KCVisualizer.xcodeproj; path = ../Framework/KCVisualizer.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3D1646580F43D6E700CA65AD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D1646CB0F43DC6D00CA65AD /* KCVisualizer.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D1646B40F43DBD700CA65AD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D1648AA0F451D4500CA65AD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D1648B70F451D8000CA65AD /* KCVisualizer.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8D11072E0486CEB800E47090 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F10008381D942984005A6D38 /* KCVisualizer.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				3D3F52BA0F30C68B001C7272 /* Quartz.framework in Frameworks */,
 				3D3F540E0F30E914001C7272 /* Carbon.framework in Frameworks */,
 				3D3F56410F32D266001C7272 /* ShortcutRecorder.framework in Frameworks */,
-				3D1646F40F43DD8300CA65AD /* KCVisualizer.framework in Frameworks */,
 				3DF883890F5256FF005FD1C6 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,7 +173,6 @@
 				3D3F540B0F30E8E7001C7272 /* KCKeyboardTap.m */,
 				3D3F52EA0F30CB13001C7272 /* KCPrefsWindowController.m */,
 				3D3F542A0F30EE24001C7272 /* KCUtility.m */,
-				3D3F56CA0F337533001C7272 /* NSUserDefaults+Utility.m */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 			);
@@ -233,9 +183,6 @@
 			isa = PBXGroup;
 			children = (
 				8D1107320486CEB800E47090 /* KeyCastr.app */,
-				3D16465A0F43D6E700CA65AD /* KCDefaultVisualizer.kcplugin */,
-				3D1646B60F43DBD700CA65AD /* KCVisualizer.framework */,
-				3D1648AC0F451D4500CA65AD /* Svelte.kcplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -243,8 +190,9 @@
 		29B97314FDCFA39411CA2CEA /* KeyCastr */ = {
 			isa = PBXGroup;
 			children = (
-				3D1646530F43D6B800CA65AD /* Visualizers */,
-				3D1646FC0F43DDC100CA65AD /* Framework */,
+				F1C55B841D94259300977494 /* KCVisualizer.xcodeproj */,
+				F1C55B701D9421E700977494 /* KCDefaultVisualizer.xcodeproj */,
+				F1238AB31D9418C800294D32 /* Svelte.xcodeproj */,
 				080E96DDFE201D6D7F000001 /* Application */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
@@ -288,42 +236,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3D1646530F43D6B800CA65AD /* Visualizers */ = {
-			isa = PBXGroup;
-			children = (
-				3D1648A30F451CDA00CA65AD /* Svelte */,
-				3D1646EC0F43DD4400CA65AD /* Default */,
-			);
-			name = Visualizers;
-			sourceTree = "<group>";
-		};
-		3D1646EC0F43DD4400CA65AD /* Default */ = {
-			isa = PBXGroup;
-			children = (
-				3D16465B0F43D6E700CA65AD /* KCDefaultVisualizer-Info.plist */,
-				3D3F54E10F31E52E001C7272 /* KCDefaultVisualizer.h */,
-				3D3F54E20F31E52E001C7272 /* KCDefaultVisualizer.m */,
-				3D3F54E70F31E5C2001C7272 /* KCDefaultVisualizer.nib */,
-				3D3F56C30F3374E9001C7272 /* NSBezierPath+RoundedRect.m */,
-				3D3F56C40F3374E9001C7272 /* NSBezierPath+RoundedRect.h */,
-			);
-			name = Default;
-			sourceTree = "<group>";
-		};
-		3D1646FC0F43DDC100CA65AD /* Framework */ = {
-			isa = PBXGroup;
-			children = (
-				3DC3146F0F33EEF400B67D65 /* KCKeystroke.h */,
-				3DC314700F33EEF400B67D65 /* KCKeystroke.m */,
-				3D3F54DD0F31448A001C7272 /* KCVisualizer.h */,
-				3D3F54DE0F31448A001C7272 /* KCVisualizer.m */,
-				3D1645DD0F43CD0600CA65AD /* KCKeystrokeTransformer.h */,
-				3D1645DE0F43CD0600CA65AD /* KCKeystrokeTransformer.m */,
-				3D1646B70F43DBD700CA65AD /* KCVisualizer-Info.plist */,
-			);
-			name = Framework;
-			sourceTree = "<group>";
-		};
 		3D1648930F43DE7A00CA65AD /* Headers */ = {
 			isa = PBXGroup;
 			children = (
@@ -332,92 +244,37 @@
 				3D3F52E90F30CB13001C7272 /* KCPrefsWindowController.h */,
 				3D3F54290F30EE24001C7272 /* KCUtility.h */,
 				32CA4F630368D1EE00C91783 /* KeyCastr_Prefix.pch */,
-				3D3F56C90F337533001C7272 /* NSUserDefaults+Utility.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
 		};
-		3D1648A30F451CDA00CA65AD /* Svelte */ = {
+		F1238AB41D9418C800294D32 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D1648AD0F451D4500CA65AD /* Svelte-Info.plist */,
-				3D1648B80F451DAA00CA65AD /* Svelte.nib */,
-				3D1648BA0F451DC300CA65AD /* SvelteVisualizer.h */,
-				3D1648BB0F451DC300CA65AD /* SvelteVisualizer.m */,
+				F1238AB81D9418C800294D32 /* Svelte.kcplugin */,
 			);
-			name = Svelte;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1C55B711D9421E700977494 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1C55B751D9421E700977494 /* KCDefaultVisualizer.kcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1C55B851D94259300977494 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1C55B8C1D94259400977494 /* KCVisualizer.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		3D1646B10F43DBD700CA65AD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D1646C30F43DC4700CA65AD /* KCVisualizer.h in Headers */,
-				3D1646C50F43DC4C00CA65AD /* KCKeystroke.h in Headers */,
-				3D1646C60F43DC5000CA65AD /* KCKeystrokeTransformer.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		3D1646590F43D6E700CA65AD /* KCDefaultVisualizer */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3D16465E0F43D6E800CA65AD /* Build configuration list for PBXNativeTarget "KCDefaultVisualizer" */;
-			buildPhases = (
-				3D1646560F43D6E700CA65AD /* Resources */,
-				3D1646570F43D6E700CA65AD /* Sources */,
-				3D1646580F43D6E700CA65AD /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3D1646D70F43DCB700CA65AD /* PBXTargetDependency */,
-			);
-			name = KCDefaultVisualizer;
-			productName = KCDefaultVisualizer;
-			productReference = 3D16465A0F43D6E700CA65AD /* KCDefaultVisualizer.kcplugin */;
-			productType = "com.apple.product-type.bundle";
-		};
-		3D1646B50F43DBD700CA65AD /* KCVisualizer */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3D1646BA0F43DBD800CA65AD /* Build configuration list for PBXNativeTarget "KCVisualizer" */;
-			buildPhases = (
-				3D1646B10F43DBD700CA65AD /* Headers */,
-				3D1646B20F43DBD700CA65AD /* Resources */,
-				3D1646B30F43DBD700CA65AD /* Sources */,
-				3D1646B40F43DBD700CA65AD /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = KCVisualizer;
-			productName = KCVisualizer;
-			productReference = 3D1646B60F43DBD700CA65AD /* KCVisualizer.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		3D1648AB0F451D4500CA65AD /* Svelte */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3D1648B00F451D4500CA65AD /* Build configuration list for PBXNativeTarget "Svelte" */;
-			buildPhases = (
-				3D1648A80F451D4500CA65AD /* Resources */,
-				3D1648A90F451D4500CA65AD /* Sources */,
-				3D1648AA0F451D4500CA65AD /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3D1648B50F451D6F00CA65AD /* PBXTargetDependency */,
-			);
-			name = Svelte;
-			productName = Svelte;
-			productReference = 3D1648AC0F451D4500CA65AD /* Svelte.kcplugin */;
-			productType = "com.apple.product-type.bundle";
-		};
 		8D1107260486CEB800E47090 /* KeyCastr */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "KeyCastr" */;
@@ -431,9 +288,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				3D1646D50F43DCB200CA65AD /* PBXTargetDependency */,
-				3D1648C60F451EE400CA65AD /* PBXTargetDependency */,
-				3D1646670F43D74700CA65AD /* PBXTargetDependency */,
+				F1C55B901D94272000977494 /* PBXTargetDependency */,
+				F1C55B771D9421FE00977494 /* PBXTargetDependency */,
+				F1238ABB1D9418F700294D32 /* PBXTargetDependency */,
 			);
 			name = KeyCastr;
 			productInstallPath = "$(HOME)/Applications";
@@ -458,40 +315,52 @@
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* KeyCastr */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F1C55B711D9421E700977494 /* Products */;
+					ProjectRef = F1C55B701D9421E700977494 /* KCDefaultVisualizer.xcodeproj */;
+				},
+				{
+					ProductGroup = F1C55B851D94259300977494 /* Products */;
+					ProjectRef = F1C55B841D94259300977494 /* KCVisualizer.xcodeproj */;
+				},
+				{
+					ProductGroup = F1238AB41D9418C800294D32 /* Products */;
+					ProjectRef = F1238AB31D9418C800294D32 /* Svelte.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
-				3D1646B50F43DBD700CA65AD /* KCVisualizer */,
-				3D1648AB0F451D4500CA65AD /* Svelte */,
-				3D1646590F43D6E700CA65AD /* KCDefaultVisualizer */,
 				8D1107260486CEB800E47090 /* KeyCastr */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		F1238AB81D9418C800294D32 /* Svelte.kcplugin */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Svelte.kcplugin;
+			remoteRef = F1238AB71D9418C800294D32 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F1C55B751D9421E700977494 /* KCDefaultVisualizer.kcplugin */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = KCDefaultVisualizer.kcplugin;
+			remoteRef = F1C55B741D9421E700977494 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F1C55B8C1D94259400977494 /* KCVisualizer.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = KCVisualizer.framework;
+			remoteRef = F1C55B8B1D94259400977494 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
-		3D1646560F43D6E700CA65AD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D1646840F43D8BE00CA65AD /* KCDefaultVisualizer.nib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D1646B20F43DBD700CA65AD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D1648A80F451D4500CA65AD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D1648B90F451DAA00CA65AD /* Svelte.nib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8D1107290486CEB800E47090 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -515,33 +384,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3D1646570F43D6E700CA65AD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D1646830F43D8BD00CA65AD /* KCDefaultVisualizer.m in Sources */,
-				3D1646ED0F43DD5E00CA65AD /* NSBezierPath+RoundedRect.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D1646B30F43DBD700CA65AD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D1646C20F43DC4700CA65AD /* KCVisualizer.m in Sources */,
-				3D1646C40F43DC4C00CA65AD /* KCKeystroke.m in Sources */,
-				3D1646C70F43DC5100CA65AD /* KCKeystrokeTransformer.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D1648A90F451D4500CA65AD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D1648BC0F451DC300CA65AD /* SvelteVisualizer.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8D11072C0486CEB800E47090 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -550,7 +392,6 @@
 				3D3F52EB0F30CB13001C7272 /* KCPrefsWindowController.m in Sources */,
 				3D3F540C0F30E8E7001C7272 /* KCKeyboardTap.m in Sources */,
 				3D3F542B0F30EE24001C7272 /* KCUtility.m in Sources */,
-				3D3F56CB0F337533001C7272 /* NSUserDefaults+Utility.m in Sources */,
 				3D1646EB0F43DD3000CA65AD /* KCAppController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -558,30 +399,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3D1646670F43D74700CA65AD /* PBXTargetDependency */ = {
+		F1238ABB1D9418F700294D32 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3D1646590F43D6E700CA65AD /* KCDefaultVisualizer */;
-			targetProxy = 3D1646660F43D74700CA65AD /* PBXContainerItemProxy */;
+			name = Svelte;
+			targetProxy = F1238ABA1D9418F700294D32 /* PBXContainerItemProxy */;
 		};
-		3D1646D50F43DCB200CA65AD /* PBXTargetDependency */ = {
+		F1C55B771D9421FE00977494 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3D1646B50F43DBD700CA65AD /* KCVisualizer */;
-			targetProxy = 3D1646D40F43DCB200CA65AD /* PBXContainerItemProxy */;
+			name = KCDefaultVisualizer;
+			targetProxy = F1C55B761D9421FE00977494 /* PBXContainerItemProxy */;
 		};
-		3D1646D70F43DCB700CA65AD /* PBXTargetDependency */ = {
+		F1C55B901D94272000977494 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3D1646B50F43DBD700CA65AD /* KCVisualizer */;
-			targetProxy = 3D1646D60F43DCB700CA65AD /* PBXContainerItemProxy */;
-		};
-		3D1648B50F451D6F00CA65AD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3D1646B50F43DBD700CA65AD /* KCVisualizer */;
-			targetProxy = 3D1648B40F451D6F00CA65AD /* PBXContainerItemProxy */;
-		};
-		3D1648C60F451EE400CA65AD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3D1648AB0F451D4500CA65AD /* Svelte */;
-			targetProxy = 3D1648C50F451EE400CA65AD /* PBXContainerItemProxy */;
+			name = KCVisualizer;
+			targetProxy = F1C55B8F1D94272000977494 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -623,86 +454,6 @@
 			};
 			name = "Code Coverage";
 		};
-		3D11D6150F4CEB0300BBE7F1 /* Code Coverage */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "KCVisualizer-Info.plist";
-				INSTALL_PATH = "@executable_path/../Frameworks";
-				OTHER_LDFLAGS = (
-					"-lgcov",
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = KCVisualizer;
-				ZERO_LINK = NO;
-			};
-			name = "Code Coverage";
-		};
-		3D11D6160F4CEB0300BBE7F1 /* Code Coverage */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
-				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "Svelte-Info.plist";
-				INSTALL_PATH = "$(HOME)/Library/Bundles";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = Svelte;
-				WRAPPER_EXTENSION = kcplugin;
-				ZERO_LINK = NO;
-			};
-			name = "Code Coverage";
-		};
-		3D11D6170F4CEB0300BBE7F1 /* Code Coverage */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "KCDefaultVisualizer-Info.plist";
-				INSTALL_PATH = "$(HOME)/Library/Bundles";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = KCDefaultVisualizer;
-				WRAPPER_EXTENSION = kcplugin;
-				ZERO_LINK = NO;
-			};
-			name = "Code Coverage";
-		};
 		3D11D6180F4CEB0300BBE7F1 /* Code Coverage */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -728,157 +479,6 @@
 				ZERO_LINK = NO;
 			};
 			name = "Code Coverage";
-		};
-		3D16465C0F43D6E800CA65AD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "KCDefaultVisualizer-Info.plist";
-				INSTALL_PATH = "$(HOME)/Library/Bundles";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = KCDefaultVisualizer;
-				WRAPPER_EXTENSION = kcplugin;
-				ZERO_LINK = YES;
-			};
-			name = Debug;
-		};
-		3D16465D0F43D6E800CA65AD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "KCDefaultVisualizer-Info.plist";
-				INSTALL_PATH = "$(HOME)/Library/Bundles";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = KCDefaultVisualizer;
-				WRAPPER_EXTENSION = kcplugin;
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
-		3D1646B80F43DBD800CA65AD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "KCVisualizer-Info.plist";
-				INSTALL_PATH = "@executable_path/../Frameworks";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = KCVisualizer;
-				ZERO_LINK = YES;
-			};
-			name = Debug;
-		};
-		3D1646B90F43DBD800CA65AD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "KCVisualizer-Info.plist";
-				INSTALL_PATH = "@executable_path/../Frameworks";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = KCVisualizer;
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
-		3D1648AE0F451D4500CA65AD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "Svelte-Info.plist";
-				INSTALL_PATH = "$(HOME)/Library/Bundles";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = Svelte;
-				WRAPPER_EXTENSION = kcplugin;
-				ZERO_LINK = YES;
-			};
-			name = Debug;
-		};
-		3D1648AF0F451D4500CA65AD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "Svelte-Info.plist";
-				INSTALL_PATH = "$(HOME)/Library/Bundles";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = Svelte;
-				WRAPPER_EXTENSION = kcplugin;
-				ZERO_LINK = NO;
-			};
-			name = Release;
 		};
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -953,36 +553,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3D16465E0F43D6E800CA65AD /* Build configuration list for PBXNativeTarget "KCDefaultVisualizer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3D16465C0F43D6E800CA65AD /* Debug */,
-				3D11D6170F4CEB0300BBE7F1 /* Code Coverage */,
-				3D16465D0F43D6E800CA65AD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3D1646BA0F43DBD800CA65AD /* Build configuration list for PBXNativeTarget "KCVisualizer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3D1646B80F43DBD800CA65AD /* Debug */,
-				3D11D6150F4CEB0300BBE7F1 /* Code Coverage */,
-				3D1646B90F43DBD800CA65AD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3D1648B00F451D4500CA65AD /* Build configuration list for PBXNativeTarget "Svelte" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3D1648AE0F451D4500CA65AD /* Debug */,
-				3D11D6160F4CEB0300BBE7F1 /* Code Coverage */,
-				3D1648AF0F451D4500CA65AD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "KeyCastr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1238AC61D941A1300294D32 /* KCDefaultVisualizer-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1238AC21D941A1300294D32 /* KCDefaultVisualizer-Info.plist */; };
+		F1238AC71D941A1300294D32 /* KCDefaultVisualizer.m in Sources */ = {isa = PBXBuildFile; fileRef = F1238AC41D941A1300294D32 /* KCDefaultVisualizer.m */; };
+		F1238AC81D941A1300294D32 /* KCDefaultVisualizer.nib in Resources */ = {isa = PBXBuildFile; fileRef = F1238AC51D941A1300294D32 /* KCDefaultVisualizer.nib */; };
+		F1238ACB1D941AEB00294D32 /* NSUserDefaults+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = F1238ACA1D941AEB00294D32 /* NSUserDefaults+Utility.m */; };
+		F1238ACE1D941F4E00294D32 /* KCVisualizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1238ACD1D941F4E00294D32 /* KCVisualizer.framework */; };
+		F1C8133F1D94158200542343 /* NSBezierPath+RoundedRect.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C8133D1D94158200542343 /* NSBezierPath+RoundedRect.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F1238AC21D941A1300294D32 /* KCDefaultVisualizer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "KCDefaultVisualizer-Info.plist"; sourceTree = "<group>"; };
+		F1238AC31D941A1300294D32 /* KCDefaultVisualizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCDefaultVisualizer.h; sourceTree = "<group>"; };
+		F1238AC41D941A1300294D32 /* KCDefaultVisualizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCDefaultVisualizer.m; sourceTree = "<group>"; };
+		F1238AC51D941A1300294D32 /* KCDefaultVisualizer.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = KCDefaultVisualizer.nib; sourceTree = "<group>"; };
+		F1238AC91D941AEB00294D32 /* NSUserDefaults+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+Utility.h"; sourceTree = "<group>"; };
+		F1238ACA1D941AEB00294D32 /* NSUserDefaults+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Utility.m"; sourceTree = "<group>"; };
+		F1238ACD1D941F4E00294D32 /* KCVisualizer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KCVisualizer.framework; path = "../../../../Library/Developer/Xcode/DerivedData/KeyCastr-aeelrkunrgclpfcgayfywrjhusyo/Build/Products/Debug/KCVisualizer.framework"; sourceTree = "<group>"; };
+		F1C813221D94131F00542343 /* KCDefaultVisualizer.kcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCDefaultVisualizer.kcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C8133D1D94158200542343 /* NSBezierPath+RoundedRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+RoundedRect.m"; sourceTree = "<group>"; };
+		F1C8133E1D94158200542343 /* NSBezierPath+RoundedRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+RoundedRect.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1C8131F1D94131F00542343 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1238ACE1D941F4E00294D32 /* KCVisualizer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1C813191D94131F00542343 = {
+			isa = PBXGroup;
+			children = (
+				F1238AC21D941A1300294D32 /* KCDefaultVisualizer-Info.plist */,
+				F1238AC31D941A1300294D32 /* KCDefaultVisualizer.h */,
+				F1238AC41D941A1300294D32 /* KCDefaultVisualizer.m */,
+				F1238AC51D941A1300294D32 /* KCDefaultVisualizer.nib */,
+				F1C8133D1D94158200542343 /* NSBezierPath+RoundedRect.m */,
+				F1C8133E1D94158200542343 /* NSBezierPath+RoundedRect.h */,
+				F1238AC91D941AEB00294D32 /* NSUserDefaults+Utility.h */,
+				F1238ACA1D941AEB00294D32 /* NSUserDefaults+Utility.m */,
+				F1C813231D94131F00542343 /* Products */,
+				F1C8133A1D9414D600542343 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1C813231D94131F00542343 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1C813221D94131F00542343 /* KCDefaultVisualizer.kcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1C8133A1D9414D600542343 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1238ACD1D941F4E00294D32 /* KCVisualizer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1C813211D94131F00542343 /* KCDefaultVisualizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C813281D94131F00542343 /* Build configuration list for PBXNativeTarget "KCDefaultVisualizer" */;
+			buildPhases = (
+				F1C8131E1D94131F00542343 /* Sources */,
+				F1C8131F1D94131F00542343 /* Frameworks */,
+				F1C813201D94131F00542343 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KCDefaultVisualizer;
+			productName = keycastr.visualizer.svelte;
+			productReference = F1C813221D94131F00542343 /* KCDefaultVisualizer.kcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1C8131A1D94131F00542343 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				TargetAttributes = {
+					F1C813211D94131F00542343 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F1C8131D1D94131F00542343 /* Build configuration list for PBXProject "KCDefaultVisualizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F1C813191D94131F00542343;
+			productRefGroup = F1C813231D94131F00542343 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1C813211D94131F00542343 /* KCDefaultVisualizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1C813201D94131F00542343 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1238AC61D941A1300294D32 /* KCDefaultVisualizer-Info.plist in Resources */,
+				F1238AC81D941A1300294D32 /* KCDefaultVisualizer.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1C8131E1D94131F00542343 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C8133F1D94158200542343 /* NSBezierPath+RoundedRect.m in Sources */,
+				F1238AC71D941A1300294D32 /* KCDefaultVisualizer.m in Sources */,
+				F1238ACB1D941AEB00294D32 /* NSUserDefaults+Utility.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F1C813261D94131F00542343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F1C813271D94131F00542343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F1C813291D94131F00542343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/KCDefaultVisualizer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = kcplugin;
+			};
+			name = Debug;
+		};
+		F1C8132A1D94131F00542343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/KCDefaultVisualizer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = kcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1C8131D1D94131F00542343 /* Build configuration list for PBXProject "KCDefaultVisualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C813261D94131F00542343 /* Debug */,
+				F1C813271D94131F00542343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C813281D94131F00542343 /* Build configuration list for PBXNativeTarget "KCDefaultVisualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C813291D94131F00542343 /* Debug */,
+				F1C8132A1D94131F00542343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1C8131A1D94131F00542343 /* Project object */;
+}

@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D1646C20F43DC4700CA65AD /* KCVisualizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F54DE0F31448A001C7272 /* KCVisualizer.m */; };
+		3D1646C30F43DC4700CA65AD /* KCVisualizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D3F54DD0F31448A001C7272 /* KCVisualizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D1646C40F43DC4C00CA65AD /* KCKeystroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC314700F33EEF400B67D65 /* KCKeystroke.m */; };
+		3D1646C50F43DC4C00CA65AD /* KCKeystroke.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DC3146F0F33EEF400B67D65 /* KCKeystroke.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D1646C60F43DC5000CA65AD /* KCKeystrokeTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D1645DD0F43CD0600CA65AD /* KCKeystrokeTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D1646C70F43DC5100CA65AD /* KCKeystrokeTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1645DE0F43CD0600CA65AD /* KCKeystrokeTransformer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		3D1645DD0F43CD0600CA65AD /* KCKeystrokeTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCKeystrokeTransformer.h; sourceTree = "<group>"; };
+		3D1645DE0F43CD0600CA65AD /* KCKeystrokeTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCKeystrokeTransformer.m; sourceTree = "<group>"; };
+		3D1646B60F43DBD700CA65AD /* KCVisualizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KCVisualizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1646B70F43DBD700CA65AD /* KCVisualizer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KCVisualizer-Info.plist"; sourceTree = "<group>"; };
+		3D3F52B90F30C68B001C7272 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		3D3F540D0F30E914001C7272 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		3D3F54DD0F31448A001C7272 /* KCVisualizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCVisualizer.h; sourceTree = "<group>"; };
+		3D3F54DE0F31448A001C7272 /* KCVisualizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCVisualizer.m; sourceTree = "<group>"; };
+		3DC3146F0F33EEF400B67D65 /* KCKeystroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCKeystroke.h; sourceTree = "<group>"; };
+		3DC314700F33EEF400B67D65 /* KCKeystroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCKeystroke.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D1646B40F43DBD700CA65AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D1646B60F43DBD700CA65AD /* KCVisualizer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* KeyCastr */ = {
+			isa = PBXGroup;
+			children = (
+				3D1646FC0F43DDC100CA65AD /* Framework */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = KeyCastr;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D3F540D0F30E914001C7272 /* Carbon.framework */,
+				3D3F52B90F30C68B001C7272 /* Quartz.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D1646FC0F43DDC100CA65AD /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				3DC3146F0F33EEF400B67D65 /* KCKeystroke.h */,
+				3DC314700F33EEF400B67D65 /* KCKeystroke.m */,
+				3D3F54DD0F31448A001C7272 /* KCVisualizer.h */,
+				3D3F54DE0F31448A001C7272 /* KCVisualizer.m */,
+				3D1645DD0F43CD0600CA65AD /* KCKeystrokeTransformer.h */,
+				3D1645DE0F43CD0600CA65AD /* KCKeystrokeTransformer.m */,
+				3D1646B70F43DBD700CA65AD /* KCVisualizer-Info.plist */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3D1646B10F43DBD700CA65AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1646C30F43DC4700CA65AD /* KCVisualizer.h in Headers */,
+				3D1646C50F43DC4C00CA65AD /* KCKeystroke.h in Headers */,
+				3D1646C60F43DC5000CA65AD /* KCKeystrokeTransformer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3D1646B50F43DBD700CA65AD /* KCVisualizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D1646BA0F43DBD800CA65AD /* Build configuration list for PBXNativeTarget "KCVisualizer" */;
+			buildPhases = (
+				3D1646B10F43DBD700CA65AD /* Headers */,
+				3D1646B20F43DBD700CA65AD /* Resources */,
+				3D1646B30F43DBD700CA65AD /* Sources */,
+				3D1646B40F43DBD700CA65AD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KCVisualizer;
+			productName = KCVisualizer;
+			productReference = 3D1646B60F43DBD700CA65AD /* KCVisualizer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "KCVisualizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* KeyCastr */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D1646B50F43DBD700CA65AD /* KCVisualizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D1646B20F43DBD700CA65AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D1646B30F43DBD700CA65AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1646C20F43DC4700CA65AD /* KCVisualizer.m in Sources */,
+				3D1646C40F43DC4C00CA65AD /* KCKeystroke.m in Sources */,
+				3D1646C70F43DC5100CA65AD /* KCKeystrokeTransformer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3D11D6140F4CEB0300BBE7F1 /* Code Coverage */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DEBUGGING_SYMBOLS = full;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = "Code Coverage";
+		};
+		3D11D6150F4CEB0300BBE7F1 /* Code Coverage */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "KCVisualizer-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-lgcov",
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = KCVisualizer;
+				ZERO_LINK = NO;
+			};
+			name = "Code Coverage";
+		};
+		3D1646B80F43DBD800CA65AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "KCVisualizer-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = KCVisualizer;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		3D1646B90F43DBD800CA65AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "KCVisualizer-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = KCVisualizer;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D1646BA0F43DBD800CA65AD /* Build configuration list for PBXNativeTarget "KCVisualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1646B80F43DBD800CA65AD /* Debug */,
+				3D11D6150F4CEB0300BBE7F1 /* Code Coverage */,
+				3D1646B90F43DBD800CA65AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "KCVisualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				3D11D6140F4CEB0300BBE7F1 /* Code Coverage */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

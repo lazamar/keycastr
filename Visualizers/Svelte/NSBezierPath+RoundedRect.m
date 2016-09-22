@@ -25,71 +25,32 @@
 //	ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
-#import <Cocoa/Cocoa.h>
-#import "KCVisualizer.h"
+#import "NSBezierPath+RoundedRect.h"
 
-@interface KCDefaultVisualizerFactory : KCVisualizerFactory <KCVisualizerFactory>
+
+@implementation NSBezierPath (RoundedRect)
+
+-(void) appendRoundedRect:(NSRect)rect radius:(float)r
 {
+	if (r > rect.size.width/2.0 || r > rect.size.height/2.0)
+	{
+		r = fmin(rect.size.width,rect.size.height) / 2.0;
+	}
+	float rr = r * 0.55228475;
+	NSRect innerRect = rect;
+	innerRect.origin.x += r;
+	innerRect.origin.y += r;
+	innerRect.size.width -= r*2;
+	innerRect.size.height -= r*2;
+	[self moveToPoint:NSMakePoint(innerRect.origin.x-r,innerRect.origin.y)];
+	[self relativeLineToPoint:NSMakePoint(0,innerRect.size.height)];
+	[self relativeCurveToPoint:NSMakePoint(r,r) controlPoint1:NSMakePoint(0,rr) controlPoint2:NSMakePoint(r-rr,r)];
+	[self relativeLineToPoint:NSMakePoint(innerRect.size.width,0)];
+	[self relativeCurveToPoint:NSMakePoint(r,-r) controlPoint1:NSMakePoint(rr,0) controlPoint2:NSMakePoint(r,rr-r)];
+	[self relativeLineToPoint:NSMakePoint(0,-innerRect.size.height)];
+	[self relativeCurveToPoint:NSMakePoint(-r,-r) controlPoint1:NSMakePoint(0,-rr) controlPoint2:NSMakePoint(rr-r,-r)];
+	[self relativeLineToPoint:NSMakePoint(-innerRect.size.width,0)];
+	[self relativeCurveToPoint:NSMakePoint(-r,r) controlPoint1:NSMakePoint(-rr,0) controlPoint2:NSMakePoint(-r,rr)];
 }
 
--(NSString*) visualizerNibName;
--(Class) visualizerClass;
--(NSString*) visualizerName;
-
 @end
-
-@interface KCDefaultVisualizerBezelView : NSView
-{
-	CGFloat _maxWidth;
-    NSColor* _backgroundColor;
-    float _opacity;
-
-	NSTextStorage* _textStorage;
-	NSLayoutManager* _layoutManager;
-	NSTextContainer* _textContainer;
-}
-
--(id) initWithMaxWidth:(CGFloat)maxWidth text:(NSString *)string backgroundColor:(NSColor *)color;
--(NSDictionary*) attributes;
--(void) maybeResize;
--(NSShadow*) shadow;
--(void) setAlphaValue:(float)opacity;
--(void) appendString:(NSString*)t;
--(void) scheduleFadeOut;
-
-@end
-
-@class KCDefaultVisualizerWindow;
-
-@interface KCBezelAnimation : NSAnimation<NSAnimationDelegate>
-{
-	KCDefaultVisualizerBezelView* _bezelView;
-}
-
--(KCBezelAnimation*) initWithBezelView:(KCDefaultVisualizerBezelView*)bezelView;
-
-@end
-
-@interface KCDefaultVisualizerWindow : NSWindow
-{
-	KCDefaultVisualizerBezelView* _currentBezelView;
-	NSMutableArray* _runningAnimations;
-	BOOL _dragging;
-}
-
-- (void)abandonCurrentBezelView;
-- (void)addKeystroke:(KCKeystroke *)keystroke;
-- (void)addRunningAnimation:(KCBezelAnimation *)animation;
-
-@end
-
-@interface KCDefaultVisualizer : KCVisualizer <KCVisualizer>
-{
-	KCDefaultVisualizerWindow* visualizerWindow;
-}
-
--(NSString*) visualizerName;
--(void) deactivateVisualizer:(id)sender;
-
-@end
-

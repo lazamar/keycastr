@@ -25,57 +25,11 @@
 //	ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
-
 #import <Cocoa/Cocoa.h>
-#import "KCVisualizer/KCVisualizer.h"
-#import "KCKeyboardTap.h"
-#import "KCVisualizer/KCKeystroke.h"
-#import "ShortcutRecorder/ShortcutRecorder.h"
-
-@class KCPrefsWindowController;
-
-/** Application Controller
 
 
-*/
-@interface KCAppController : NSObject
-{
-	IBOutlet NSMenu* statusMenu;
-	IBOutlet NSWindow* aboutWindow;
-	IBOutlet NSWindow* preferencesWindow;
-	IBOutlet KCPrefsWindowController* prefsWindowController;
-	NSWindow* visualizerWindow;
-	NSStatusItem* statusItem;
-	id<KCVisualizer> currentVisualizer;
-	IBOutlet SRRecorderControl* shortcutRecorder;
-	IBOutlet NSMenuItem* statusShortcutItem;
-	IBOutlet NSMenuItem* dockShortcutItem;
-	BOOL _isCapturing;
-	BOOL _allowToggle;
-	int _startupIconPreference;
-}
+@interface NSBezierPath (RoundedRect)
 
--(IBAction) orderFrontKeyCastrAboutPanel:(id)sender;
--(IBAction) orderFrontKeyCastrPreferencesPanel:(id)sender;
--(IBAction) toggleRecording:(id)sender;
--(IBAction) pretendToDoSomethingImportant:(id)sender;
--(IBAction) changeIconPreference:(id)sender;
-
--(BOOL) isCapturing;
--(void) setIsCapturing:(BOOL)isCapturing;
--(void) registerVisualizers;
-
--(NSStatusItem*) createStatusItem;
-
--(NSArray*) availableVisualizerNames;
-
--(NSString*) currentVisualizerName;
--(void) setCurrentVisualizerName:(NSString*)visualizerName;
-
--(id<KCVisualizer>) currentVisualizer;
--(void) setCurrentVisualizer:(id<KCVisualizer>)visualizer;
-
--(void) keyboardTap:(KCKeyboardTap*)tap noteKeystroke:(KCKeystroke*)keystroke;
--(void) keyboardTap:(KCKeyboardTap*)tap noteFlagsChanged:(uint32_t)flags;
+-(void) appendRoundedRect:(NSRect)rect radius:(float)r;
 
 @end

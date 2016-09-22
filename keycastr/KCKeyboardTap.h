@@ -26,7 +26,7 @@
 
 
 #import <Cocoa/Cocoa.h>
-#import "KCKeystroke.h"
+#import "KCVisualizer/KCKeystroke.h"
 
 @class KCKeyboardTap;
 

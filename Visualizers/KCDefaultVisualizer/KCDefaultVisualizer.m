@@ -29,7 +29,7 @@
 #import "NSBezierPath+RoundedRect.h"
 #import "NSUserDefaults+Utility.h"
 
-#import "KCKeystrokeTransformer.h"
+#import "KCVisualizer/KCKeystrokeTransformer.h"
 
 
 @implementation KCDefaultVisualizerFactory

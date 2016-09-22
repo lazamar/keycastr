@@ -26,7 +26,7 @@
 
 
 #import <Cocoa/Cocoa.h>
-#import "KCVisualizer.h"
+#import "KCVisualizer/KCVisualizer.h"
 
 @interface SvelteVisualizerFactory : KCVisualizerFactory <KCVisualizerFactory>
 {

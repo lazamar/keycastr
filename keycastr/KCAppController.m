@@ -27,7 +27,6 @@
 
 #import "KCAppController.h"
 #import "KCKeyboardTap.h"
-#import "KCDefaultVisualizer.h"
 #import "KCPrefsWindowController.h"
 #import "ShortcutRecorder/SRKeyCodeTransformer.h"
 
