@@ -37,11 +37,7 @@
 		3D3F548A0F30F37E001C7272 /* GeneralIcon.tif in Resources */ = {isa = PBXBuildFile; fileRef = 3D3F54870F30F37E001C7272 /* GeneralIcon.tif */; };
 		3D3F548B0F30F37E001C7272 /* DisplayIcon.tif in Resources */ = {isa = PBXBuildFile; fileRef = 3D3F54880F30F37E001C7272 /* DisplayIcon.tif */; };
 		3D3F548E0F30F3C7001C7272 /* UpdateIcon.tif in Resources */ = {isa = PBXBuildFile; fileRef = 3D3F548D0F30F3C7001C7272 /* UpdateIcon.tif */; };
-		3D3F56410F32D266001C7272 /* ShortcutRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3F56400F32D266001C7272 /* ShortcutRecorder.framework */; };
-		3D3F564E0F32D2EA001C7272 /* ShortcutRecorder.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D3F56400F32D266001C7272 /* ShortcutRecorder.framework */; };
 		3D3F56CB0F337533001C7272 /* NSUserDefaults+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F56CA0F337533001C7272 /* NSUserDefaults+Utility.m */; };
-		3D66FC520F539C290034ECC1 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3DF8835C0F5254F9005FD1C6 /* Sparkle.framework */; };
-		3DF883890F5256FF005FD1C6 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF8835C0F5254F9005FD1C6 /* Sparkle.framework */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -50,6 +46,12 @@
 		AE39388C1BB73B36005458A6 /* KeyCastrStatusItem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE3938881BB73B36005458A6 /* KeyCastrStatusItem@2x.png */; };
 		AE39388D1BB73B36005458A6 /* KeyCastrStatusItemActive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE3938891BB73B36005458A6 /* KeyCastrStatusItemActive@2x.png */; };
 		AE39388E1BB73B36005458A6 /* KeyCastrStatusItemInactive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE39388A1BB73B36005458A6 /* KeyCastrStatusItemInactive@2x.png */; };
+		F1C0C7DF1D9434C00074C028 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F1B788291D9432E80063F375 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F1C0C7E21D9439620074C028 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B788291D9432E80063F375 /* Sparkle.framework */; };
+		F1C0C7E31D943B1A0074C028 /* ShortcutRecorder.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F17969E01D942FE50057F8A2 /* ShortcutRecorder.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F1C0C7E41D943B1A0074C028 /* PTHotKey.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F17969E21D942FE50057F8A2 /* PTHotKey.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F1C3F6D41D94322A00FD8D06 /* PTHotKey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17969E21D942FE50057F8A2 /* PTHotKey.framework */; };
+		F1C3F6D51D94322A00FD8D06 /* ShortcutRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17969E01D942FE50057F8A2 /* ShortcutRecorder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +90,41 @@
 			remoteGlobalIDString = 3D1648AB0F451D4500CA65AD;
 			remoteInfo = Svelte;
 		};
+		F16B9C4B1D94302F004B6CFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F17969D91D942FE50057F8A2 /* ShortcutRecorder.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9398377F0DA42965007F53F3;
+			remoteInfo = ShortcutRecorder.framework;
+		};
+		F16B9C4D1D94302F004B6CFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F17969D91D942FE50057F8A2 /* ShortcutRecorder.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E273122D1349EC9000A84433;
+			remoteInfo = PTHotKey.framework;
+		};
+		F17969DF1D942FE50057F8A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F17969D91D942FE50057F8A2 /* ShortcutRecorder.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 939837800DA42965007F53F3;
+			remoteInfo = ShortcutRecorder.framework;
+		};
+		F17969E11D942FE50057F8A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F17969D91D942FE50057F8A2 /* ShortcutRecorder.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E273122E1349EC9000A84433;
+			remoteInfo = PTHotKey.framework;
+		};
+		F17969E31D942FE50057F8A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F17969D91D942FE50057F8A2 /* ShortcutRecorder.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0D6B2468180304DE00CE1142;
+			remoteInfo = Demo;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -108,9 +145,10 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3D66FC520F539C290034ECC1 /* Sparkle.framework in CopyFiles */,
+				F1C0C7E31D943B1A0074C028 /* ShortcutRecorder.framework in CopyFiles */,
+				F1C0C7E41D943B1A0074C028 /* PTHotKey.framework in CopyFiles */,
+				F1C0C7DF1D9434C00074C028 /* Sparkle.framework in CopyFiles */,
 				3D1646D10F43DCA700CA65AD /* KCVisualizer.framework in CopyFiles */,
-				3D3F564E0F32D2EA001C7272 /* ShortcutRecorder.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,20 +196,20 @@
 		3D3F54E10F31E52E001C7272 /* KCDefaultVisualizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCDefaultVisualizer.h; sourceTree = "<group>"; };
 		3D3F54E20F31E52E001C7272 /* KCDefaultVisualizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCDefaultVisualizer.m; sourceTree = "<group>"; };
 		3D3F54E70F31E5C2001C7272 /* KCDefaultVisualizer.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = KCDefaultVisualizer.nib; sourceTree = "<group>"; };
-		3D3F56400F32D266001C7272 /* ShortcutRecorder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShortcutRecorder.framework; sourceTree = "<group>"; };
 		3D3F56C30F3374E9001C7272 /* NSBezierPath+RoundedRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+RoundedRect.m"; sourceTree = "<group>"; };
 		3D3F56C40F3374E9001C7272 /* NSBezierPath+RoundedRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+RoundedRect.h"; sourceTree = "<group>"; };
 		3D3F56C90F337533001C7272 /* NSUserDefaults+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+Utility.h"; sourceTree = "<group>"; };
 		3D3F56CA0F337533001C7272 /* NSUserDefaults+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Utility.m"; sourceTree = "<group>"; };
 		3DC3146F0F33EEF400B67D65 /* KCKeystroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCKeystroke.h; sourceTree = "<group>"; };
 		3DC314700F33EEF400B67D65 /* KCKeystroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCKeystroke.m; sourceTree = "<group>"; };
-		3DF8835C0F5254F9005FD1C6 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* KeyCastr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyCastr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3938871BB73B36005458A6 /* KeyCastrStatusItem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KeyCastrStatusItem.png; sourceTree = "<group>"; };
 		AE3938881BB73B36005458A6 /* KeyCastrStatusItem@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KeyCastrStatusItem@2x.png"; sourceTree = "<group>"; };
 		AE3938891BB73B36005458A6 /* KeyCastrStatusItemActive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KeyCastrStatusItemActive@2x.png"; sourceTree = "<group>"; };
 		AE39388A1BB73B36005458A6 /* KeyCastrStatusItemInactive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KeyCastrStatusItemInactive@2x.png"; sourceTree = "<group>"; };
+		F17969D91D942FE50057F8A2 /* ShortcutRecorder.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ShortcutRecorder.xcodeproj; path = ../lib/ShortcutRecorder/ShortcutRecorder.xcodeproj; sourceTree = "<group>"; };
+		F1B788291D9432E80063F375 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,12 +240,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1C3F6D41D94322A00FD8D06 /* PTHotKey.framework in Frameworks */,
+				F1C3F6D51D94322A00FD8D06 /* ShortcutRecorder.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				3D3F52BA0F30C68B001C7272 /* Quartz.framework in Frameworks */,
 				3D3F540E0F30E914001C7272 /* Carbon.framework in Frameworks */,
-				3D3F56410F32D266001C7272 /* ShortcutRecorder.framework in Frameworks */,
 				3D1646F40F43DD8300CA65AD /* KCVisualizer.framework in Frameworks */,
-				3DF883890F5256FF005FD1C6 /* Sparkle.framework in Frameworks */,
+				F1C0C7E21D9439620074C028 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +282,7 @@
 		29B97314FDCFA39411CA2CEA /* KeyCastr */ = {
 			isa = PBXGroup;
 			children = (
+				F17969D91D942FE50057F8A2 /* ShortcutRecorder.xcodeproj */,
 				3D1646530F43D6B800CA65AD /* Visualizers */,
 				3D1646FC0F43DDC100CA65AD /* Framework */,
 				080E96DDFE201D6D7F000001 /* Application */,
@@ -276,8 +316,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3DF8835C0F5254F9005FD1C6 /* Sparkle.framework */,
-				3D3F56400F32D266001C7272 /* ShortcutRecorder.framework */,
+				F1B788291D9432E80063F375 /* Sparkle.framework */,
 				3D3F540D0F30E914001C7272 /* Carbon.framework */,
 				3D3F52B90F30C68B001C7272 /* Quartz.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
@@ -346,6 +385,16 @@
 				3D1648BB0F451DC300CA65AD /* SvelteVisualizer.m */,
 			);
 			name = Svelte;
+			sourceTree = "<group>";
+		};
+		F17969DA1D942FE50057F8A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F17969E01D942FE50057F8A2 /* ShortcutRecorder.framework */,
+				F17969E21D942FE50057F8A2 /* PTHotKey.framework */,
+				F17969E41D942FE50057F8A2 /* Demo.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -431,6 +480,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				F16B9C4C1D94302F004B6CFE /* PBXTargetDependency */,
+				F16B9C4E1D94302F004B6CFE /* PBXTargetDependency */,
 				3D1646D50F43DCB200CA65AD /* PBXTargetDependency */,
 				3D1648C60F451EE400CA65AD /* PBXTargetDependency */,
 				3D1646670F43D74700CA65AD /* PBXTargetDependency */,
@@ -458,6 +509,12 @@
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* KeyCastr */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F17969DA1D942FE50057F8A2 /* Products */;
+					ProjectRef = F17969D91D942FE50057F8A2 /* ShortcutRecorder.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				3D1646B50F43DBD700CA65AD /* KCVisualizer */,
@@ -467,6 +524,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F17969E01D942FE50057F8A2 /* ShortcutRecorder.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ShortcutRecorder.framework;
+			remoteRef = F17969DF1D942FE50057F8A2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F17969E21D942FE50057F8A2 /* PTHotKey.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PTHotKey.framework;
+			remoteRef = F17969E11D942FE50057F8A2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F17969E41D942FE50057F8A2 /* Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Demo.app;
+			remoteRef = F17969E31D942FE50057F8A2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		3D1646560F43D6E700CA65AD /* Resources */ = {
@@ -583,6 +664,16 @@
 			target = 3D1648AB0F451D4500CA65AD /* Svelte */;
 			targetProxy = 3D1648C50F451EE400CA65AD /* PBXContainerItemProxy */;
 		};
+		F16B9C4C1D94302F004B6CFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ShortcutRecorder.framework;
+			targetProxy = F16B9C4B1D94302F004B6CFE /* PBXContainerItemProxy */;
+		};
+		F16B9C4E1D94302F004B6CFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PTHotKey.framework;
+			targetProxy = F16B9C4D1D94302F004B6CFE /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -608,7 +699,6 @@
 		3D11D6140F4CEB0300BBE7F1 /* Code Coverage */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DEBUGGING_SYMBOLS = full;
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
@@ -619,7 +709,6 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
-				SDKROOT = macosx;
 			};
 			name = "Code Coverage";
 		};
@@ -629,6 +718,10 @@
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -706,11 +799,11 @@
 		3D11D6180F4CEB0300BBE7F1 /* Code Coverage */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -722,8 +815,8 @@
 				GCC_PREFIX_HEADER = KeyCastr_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = "-Wl,-rpath,@loader_path/../Frameworks";
 				PRODUCT_NAME = KeyCastr;
-				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = NO;
 			};
@@ -784,6 +877,10 @@
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -812,6 +909,10 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;
@@ -883,11 +984,11 @@
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -897,8 +998,8 @@
 				GCC_PREFIX_HEADER = KeyCastr_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = "-Wl,-rpath,@loader_path/../Frameworks";
 				PRODUCT_NAME = KeyCastr;
-				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
 			};
@@ -907,19 +1008,19 @@
 		C01FCF4C08A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = KeyCastr_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = "-Wl,-rpath,@loader_path/../Frameworks";
 				PRODUCT_NAME = KeyCastr;
-				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -927,26 +1028,22 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PREBINDING = NO;
-				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PREBINDING = NO;
-				SDKROOT = macosx;
 			};
 			name = Release;
 		};

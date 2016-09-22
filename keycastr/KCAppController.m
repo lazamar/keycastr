@@ -30,8 +30,9 @@
 #import "KCDefaultVisualizer.h"
 #import "KCPrefsWindowController.h"
 #import "ShortcutRecorder/SRKeyCodeTransformer.h"
+#import "PTHotKey/PTHotKey.h"
 
-static NSString* kKCPrefCapturingHotKey = @"capturingHotKey";
+static NSString* kKCPrefCapturingHotKey = @"fancyCapturingHotKey";
 static NSString* kKCPrefVisibleAtLaunch = @"alwaysShowPrefs";
 static NSString* kKCPrefDisplayIcon = @"displayIcon";
 static NSString* kKCPrefSelectedVisualizer = @"selectedVisualizer";
@@ -71,9 +72,7 @@ static NSString* kKCPrefSelectedVisualizer = @"selectedVisualizer";
 -(void) _setupDefaults
 {
 	// Set up user-defaults defaults
-	KeyCombo keyCombo;
-	keyCombo.code = 40;
-	keyCombo.flags = NSControlKeyMask | NSAlternateKeyMask | NSCommandKeyMask;
+	PTKeyCombo* keyCombo = [PTKeyCombo keyComboWithKeyCode:40 modifiers:NSControlKeyMask | NSAlternateKeyMask | NSCommandKeyMask];
 	NSUserDefaults* ud = [NSUserDefaults standardUserDefaults];
 	[ud synchronize];
 
@@ -103,8 +102,7 @@ static NSString* kKCPrefSelectedVisualizer = @"selectedVisualizer";
 		NSDictionary* oldKey = [ud objectForKey:@"ShortcutRecorder toggleCapture"];
 		if (oldKey != nil)
 		{
-			keyCombo.code = [[oldKey objectForKey:@"keyCode"] intValue];
-			keyCombo.flags = [[oldKey objectForKey:@"modifierFlags"] intValue];
+            keyCombo = [PTKeyCombo keyComboWithKeyCode:[[oldKey objectForKey:@"keyCode"] intValue] modifiers:[[oldKey objectForKey:@"modifierFlags"] intValue]];
 			[ud setObject:[NSData dataWithBytes:&keyCombo length:sizeof(keyCombo)] forKey:kKCPrefCapturingHotKey];
 			[ud removeObjectForKey:@"ShortcutRecorder toggleCapture"];
 		}
@@ -123,16 +121,6 @@ static NSString* kKCPrefSelectedVisualizer = @"selectedVisualizer";
 	[self setCurrentVisualizerName:[[NSUserDefaults standardUserDefaults] objectForKey:kKCPrefSelectedVisualizer]];
 	[self setIsCapturing:YES];
 
-	// Bootstrap key capturing hotkey from preferences
-	KeyCombo kc;
-	kc.code = -1;
-	kc.flags = 0;
-	
-	NSData* d = [[NSUserDefaults standardUserDefaults] dataForKey:kKCPrefCapturingHotKey];
-	if (d != nil)
-		[d getBytes:&kc length:sizeof(kc)];
-		
-	[shortcutRecorder setKeyCombo:kc];
 	_allowToggle = YES;
 
 	// Set up observation of keystroke events
@@ -152,8 +140,16 @@ static NSString* kKCPrefSelectedVisualizer = @"selectedVisualizer";
 
 -(void) keyboardTap:(KCKeyboardTap*)tap noteKeystroke:(KCKeystroke*)keystroke
 {
-	KeyCombo kc = [shortcutRecorder keyCombo];
-	if ([keystroke keyCode] == kc.code && ([keystroke modifiers] & (NSControlKeyMask | NSCommandKeyMask | NSShiftKeyMask | NSAlternateKeyMask)) == (kc.flags & (NSControlKeyMask | NSCommandKeyMask | NSShiftKeyMask | NSAlternateKeyMask)))
+	id d = [[NSUserDefaults standardUserDefaults] dictionaryForKey:kKCPrefCapturingHotKey];
+    PTKeyCombo* kc = [[PTKeyCombo alloc] initWithPlistRepresentation:d];
+    NSInteger keystrokeKeyCode = keystroke.keyCode;
+    NSInteger kcKeyCode = kc.keyCode;
+    NSInteger keystrokeModifiers = keystroke.modifiers;
+    NSInteger kcModifiers = kc.modifiers;
+    NSInteger mask = (NSControlKeyMask | NSCommandKeyMask | NSShiftKeyMask | NSAlternateKeyMask);
+    NSInteger keystrokeMaskedModifiers = keystrokeModifiers & mask;
+    NSInteger kcMaskedModifiers = kcModifiers & mask;
+	if ([keystroke keyCode] == kc.keyCode && ([keystroke modifiers] & (NSControlKeyMask | NSCommandKeyMask | NSShiftKeyMask | NSAlternateKeyMask)) == (kc.modifiers & (NSControlKeyMask | NSCommandKeyMask | NSShiftKeyMask | NSAlternateKeyMask)))
 	{
 		if (_allowToggle)
 		{
@@ -254,16 +250,16 @@ static NSString* kKCPrefSelectedVisualizer = @"selectedVisualizer";
 	}
 }
 
--(void) changeKeyComboTo:(KeyCombo)kc
+-(void) changeKeyComboTo:(PTKeyCombo*)kc
 {
 	_allowToggle = false;
-	if (kc.code != -1)
+	if (kc.keyCode != -1)
 	{
 		SRKeyCodeTransformer* xformer = [[SRKeyCodeTransformer alloc] init];
-		[statusShortcutItem setKeyEquivalent:[xformer transformedValue:[NSNumber numberWithInt:kc.code]]];
-		[statusShortcutItem setKeyEquivalentModifierMask:kc.flags];
-		[dockShortcutItem setKeyEquivalent:[xformer transformedValue:[NSNumber numberWithInt:kc.code]]];
-		[dockShortcutItem setKeyEquivalentModifierMask:kc.flags];
+		[statusShortcutItem setKeyEquivalent:[xformer transformedValue:[NSNumber numberWithInt:kc.keyCode]]];
+		[statusShortcutItem setKeyEquivalentModifierMask:kc.modifiers];
+		[dockShortcutItem setKeyEquivalent:[xformer transformedValue:[NSNumber numberWithInt:kc.keyCode]]];
+		[dockShortcutItem setKeyEquivalentModifierMask:kc.modifiers];
 		[xformer autorelease];
     }
 	else
@@ -442,10 +438,10 @@ static NSString* kKCPrefSelectedVisualizer = @"selectedVisualizer";
 #pragma mark -
 #pragma mark SRRecorderDelegate methods
 
--(void) shortcutRecorder:(SRRecorderControl*)aRecorder keyComboDidChange:(KeyCombo)newKeyCombo
+-(void) shortcutRecorder:(SRRecorderControl*)aRecorder keyComboDidChange:(PTKeyCombo*)newKeyCombo
 {
 	[self changeKeyComboTo:newKeyCombo];
-	[[NSUserDefaults standardUserDefaults] setObject:[NSData dataWithBytes:&newKeyCombo length:sizeof(newKeyCombo)] forKey:kKCPrefCapturingHotKey];
+	[[NSUserDefaults standardUserDefaults] setObject:newKeyCombo forKey:kKCPrefCapturingHotKey];
 }
 
 @end
